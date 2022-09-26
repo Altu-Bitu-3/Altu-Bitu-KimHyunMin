@@ -49,6 +49,8 @@
     "xstddef": "cpp",
     "xtr1common": "cpp",
     "deque": "cpp",
-    "queue": "cpp"
-  }
+    "queue": "cpp",
+    "list": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }
