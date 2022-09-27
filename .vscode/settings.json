@@ -47,6 +47,10 @@
     "xlocnum": "cpp",
     "xmemory": "cpp",
     "xstddef": "cpp",
-    "xtr1common": "cpp"
-  }
+    "xtr1common": "cpp",
+    "deque": "cpp",
+    "queue": "cpp",
+    "list": "cpp"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
 }
