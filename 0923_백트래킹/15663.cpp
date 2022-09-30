@@ -39,9 +39,12 @@ void backtracking(int cnt) // cnt :수열의 인덱스
     }
 }
 
-void input() //입력 받고, sort와 unique로 정렬하자 -> 라고 생각했는데 그러면 예제 입력 2 케이스에서 걸림. unique는 사용 X
+int main()
 {
+    cin >> n >> m;
+
     int x;
+
     for (int i = 0; i < n; i++)
     {
         cin >> x;
@@ -49,12 +52,7 @@ void input() //입력 받고, sort와 unique로 정렬하자 -> 라고 생각했
     }
 
     sort(num.begin(), num.end());
-}
 
-int main()
-{
-    cin >> n >> m;
-    input();
     backtracking(0);
     return 0;
 }
